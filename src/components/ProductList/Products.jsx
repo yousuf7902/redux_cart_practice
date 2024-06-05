@@ -19,7 +19,7 @@ const Products =(props) => {
             <div className="cart_list_header">
                 <h2>{name}</h2>
                 <div>
-                    <h3>${price}</h3>
+                    <h3>Price: ${price}</h3>
                 </div>
             </div>
             <div className="cart_list_body">
