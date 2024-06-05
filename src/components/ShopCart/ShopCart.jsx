@@ -7,8 +7,6 @@ import { toggle } from "../../features/cartSlice";
 const ShopCart = () => {
     const cartItems = useSelector((state) => state.cartBtn.items);
     const length= cartItems.length;
-    const isShow = useSelector((state) => state.toggle.isShow);
-    const dispatch = useDispatch();
 
     return (
         <>
