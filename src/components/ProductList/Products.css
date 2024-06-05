@@ -1,0 +1,8 @@
+.product_btn button {
+    padding: 0.5rem 0.5rem;
+    width: 150px;
+    border-radius: 20px;
+    border: 2px solid #101e2c;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
